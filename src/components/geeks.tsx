@@ -2,7 +2,7 @@ function Geeks()
 {
     const myDev =[
         "My name is Moseti Dickson and I have decided to go back  to my code as I did get used in entire of my life",
-        "I thought YesterNight I would make love with Lauryn but for sure I was wrong , God walks with me entirely and I have seen it happen in my life",
+        "Have been commiting myself to fall in love but it turns out to be dissapoint.I don't care anymore rather I want to mylife to be full of coding, Nothing else",
         "My ambition currently is to code badly and I don't think if anything is gonna stop me from doin so as I look forward to generate many cofdes as much as possible"
     ]
 
