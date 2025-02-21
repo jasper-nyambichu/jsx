@@ -6,17 +6,16 @@ let code = [
   "lavarel",
   "React",
   "Python",
-  "Django"
+  "Django",
 ]
-code =[];
+
 
   return(
     <>
     <h3>Programming Languages</h3>
-    {code.length === 0 && <p>No items Found</p>}
-    <ul className="list-gruop">
+    <ul className="list-group">
      {code.map((code)=>(
-      <li key={code}>{code}</li>
+      <li className="list-group-item" onClick={()=>console.log("Clicked")} key={code}>{code}</li>
       ))};
     </ul>
     </>
