@@ -1,7 +1,12 @@
-import Counter from "./components/hooks"
+import Nateku from "./components/list";
 
 function App()
 {
-  return <><Counter /></>
+  return(
+    <>
+    <Nateku />
+    </>
+  )
 }
 export default App;
+
