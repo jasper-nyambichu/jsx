@@ -1,33 +1,5 @@
-// import {useState} from "react";
 
-// function Form()
-// {
-//   const[name, setName] =useState("")
-//   const[homePlace, sethomePlace] =useState("")
-//   const[subitted, setSubmitted] =useState(false)
-//   const handleSubmit = () => {
-//     setSubmitted(true);
-//   };
-
-//   return(
-//     <>
-//     <h4 className="lead text-center" >Welcome to Our Login Platform</h4>
-//     <div className="container p-5 shadow-lg p-5">
-//     <div className="row g-4">
-//     <input type="text" value={name} onChange={(e)=> setName(e.target.value)} placeholder="Enter your Name" className="form-control col-md-6"/>
-
-// <input type="text" value={homePlace} onChange={(e)=> sethomePlace(e.target.value)} placeholder="Enter your area of residence" className="form-control col-md-6"/>
-// <button className="btn btn-primary" onClick={handleSubmit} >Submit</button>
-// {subitted && <p className="lead text-center">Please Key In your Credentials for you to Proceed</p>}
-//     </div>
-//     </div>
-   
-    
-//     </>
-//   )
-// }
-// export default Form
-import React, { useState } from 'react';
+import { useState } from 'react';
  'bootstrap/dist/css/bootstimportrap.min.css';
 
 const LoginForm = () => {

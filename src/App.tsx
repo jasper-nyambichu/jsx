@@ -1,10 +1,11 @@
-import Nateku from "./components/list";
+import Nyambichu from "./components/geeks";
 
 function App()
 {
   return(
     <>
-    <Nateku />
+    
+    <Nyambichu />
     </>
   )
 }
